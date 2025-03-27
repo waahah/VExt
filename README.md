@@ -7,8 +7,8 @@
   <a href="https://github.com/waahah">
      <img src="https://img.shields.io/static/v1?label=%20&message=Github&style=flat-square&labelColor=black&color=4258dd&logo=github" alt="github" />
   </a>
-  <a href="README_EN">English</a>
-  <a href="README">简体中文</a>
+  <a href="README_EN.md">English</a>
+  <a href="README.md">简体中文</a>
 </div>
 <h3 align="center">🙋‍♂️ Made by <a href="https://www.waahah.xyz/about">@waahah</a></h3>
 <hr />
