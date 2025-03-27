@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+dist/
+web-ext-artifacts/
+.deploy*/
+_multiconfig.yml
+.amo-upload-uuid
+update.xml
+myExtension.crx

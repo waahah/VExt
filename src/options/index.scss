@@ -1,0 +1,10 @@
+@use "../styles/fonts";
+@use "../styles/reset";
+@use "../styles/variables";
+
+@use "webext-base";
+
+body {
+  color: variables.$black;
+  background-color: variables.$greyWhite;
+}
