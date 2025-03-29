@@ -22,11 +22,12 @@
 - 📄 Browser-specific manifest generation
 - 🌈 Auto-build and HMR hot reload on code changes
 - 📦 Automatic packaging for browser-specific builds
+- 🎨 Framework-agnostic
+- 🤖 Auto publishing
+- ✨ Continuous integration
 - 🥢 SASS styling
 - 🎯 ES6 module support
 - 📊 Smart reload
-- 🎨 Framework-agnostic
-- 🤖 Auto publishing
 - 🥡 Out-of-the-box experience
 
 ### Browser Support
