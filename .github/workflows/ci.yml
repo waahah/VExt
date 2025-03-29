@@ -1,0 +1,62 @@
+name: Release
+
+permissions:
+  contents: write
+  id-token: write
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - '*'  
+  workflow_dispatch:  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Install Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: |
+            npm install
+    
+      - name: Build Firefox extension
+        run: |
+          npm run build:firefox
+          cd dist
+          zip -r ../extension-firefox.zip .
+          cd ..
+
+      - name: Build Chrome extension
+        run: |
+          npm run build:chrome
+          cd dist
+          zip -r ../extension-chrome.zip .
+          cd ..
+
+      - name: upload .zip as Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: packed-extensions
+          path: |
+            extension-firefox.zip
+            extension-chrome.zip
+
+      - name: Publish to GitHub Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            extension-firefox.zip
+            extension-chrome.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
