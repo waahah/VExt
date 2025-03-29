@@ -121,6 +121,25 @@ Chrome:
 - `chrome`获取API密钥请查看[此指南](https://github.com/fregante/chrome-webstore-upload-keys)
 
 
+### 持续集成
+
+可以通过在 GitHub Actions 中添加以下 secrets 来同时自动发布到 Chrome Web Store 和 Mozilla Addons：
+
+- **CLIENT_ID** 和 **CLIENT_SECRET** 以及来自 Google APIs 的 **REFRESH_TOKEN **和 **EXTENSION-ID**
+- **WEB_EXT_API_KEY** 和来自 AMO 的 **WEB_EXT_API_SECRET**
+
+GitHub Actions 工作流将会：
+
+- 构建扩展
+- 将扩展部署到两个商店
+
+
+借助包含的 [GitHub Action](https://github.com/waahah/VExt/actions) 工作流，CI可以：
+
+- 在有新的 tag 提交时触发
+- 手动触发，只需点击 Actions 标签页中的 “Run workflow”
+
+
 > 立即开始构建跨浏览器扩展项目！ ✨
 
 ### 🧹使用此项目构建的扩展

@@ -111,6 +111,24 @@ Chrome:
 - To get `firefox` API keys, refer to [this guide](https://extensionworkshop.com/documentation/develop/web-ext-command-reference/#web-ext-sign)
 - To get `chrome` API keys, refer to [this guide](https://github.com/fregante/chrome-webstore-upload-keys)
 
+### Continuous Integration
+
+You can automatically publish to both the Chrome Web Store and Mozilla Addons by adding the following secrets in GitHub Actions:
+
+- **CLIENT_ID** and **CLIENT_SECRET**, along with **REFRESH_TOKEN** and **EXTENSION-ID** from Google APIs
+- **WEB_EXT_API_KEY** and **WEB_EXT_API_SECRET** from AMO
+
+The GitHub Actions workflow will:
+
+- Build the extension
+- Deploy the extension to both stores
+
+Thanks to the included [GitHub Action](https://github.com/waahah/VExt/actions) workflow, CI can:
+
+- Trigger when a new tag is committed
+- Be triggered manually by clicking "Run workflow" in the Actions tab
+
+
 > Start building your cross-browser extension today! ✨
 
 ### 🧹 Extensions Built with This Project
