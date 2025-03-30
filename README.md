@@ -39,9 +39,9 @@
 使用 [vext-cli](https://github.com/waahah/vext-cli) 创建一个新的项目非常简单，只需运行以下命令：
 
 ```bash
-npm install -g vext-cli
+npm install -g create-vext
 # 或者使用 yarn
-yarn global add vext-cli
+yarn global add create-vext
 # 创建新项目
 vext create <project-name>
 ```

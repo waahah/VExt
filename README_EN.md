@@ -41,9 +41,9 @@
 Creating a new project with [vext-cli](https://github.com/waahah/vext-cli) is as simple as running the following command:
 
 ```bash
-npm install -g vext-cli
+npm install -g create-vext
 # Or use yarn
-yarn global add vext-cli
+yarn global add create-vext
 # create new project
 vext create <project-name>
 ```
