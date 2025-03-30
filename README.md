@@ -36,7 +36,7 @@
 
 ### 🚀 快速开始
 
-使用 [vext-cli](https://github.com/stars/waahah/vext-cli) 创建一个新的项目非常简单，只需运行以下命令：
+使用 [vext-cli](https://github.com/waahah/vext-cli) 创建一个新的项目非常简单，只需运行以下命令：
 
 ```bash
 npm install -g vext-cli

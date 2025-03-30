@@ -38,7 +38,7 @@
 
 ### 🚀 Get started fast
 
-Creating a new project with [vext-cli](https://github.com/stars/waahah/vext-cli) is as simple as running the following command:
+Creating a new project with [vext-cli](https://github.com/waahah/vext-cli) is as simple as running the following command:
 
 ```bash
 npm install -g vext-cli
