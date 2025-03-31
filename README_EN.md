@@ -15,7 +15,7 @@
 <h3 align="center">🙋‍♂️ Made by <a href="https://www.waahah.xyz/about">@waahah</a></h3>
 <hr />
 
-![](https://s2.loli.net/2025/04/01/PtyNn3dspTWeKcZ.png)
+![](https://s2.loli.net/2025/04/01/naCU38g5qI9wANK.png)
 
 ### Features
 - ✅ Cross-browser support (Web Extension API)
