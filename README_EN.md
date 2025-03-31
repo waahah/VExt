@@ -15,7 +15,7 @@
 <h3 align="center">🙋‍♂️ Made by <a href="https://www.waahah.xyz/about">@waahah</a></h3>
 <hr />
 
-![](https://raw.githubusercontent.com/wxt-dev/wxt/HEAD/docs/assets/cli-output.png)
+![](https://s2.loli.net/2025/04/01/Lyh9zg17bc46Hxm.png)
 
 ### Features
 - ✅ Cross-browser support (Web Extension API)
@@ -28,13 +28,13 @@
 - 🥢 SASS styling
 - 🎯 ES6 module support
 - 📊 Smart reload
-- 🥡 Out-of-the-box experience
+  
 
 ### Browser Support
 
-| [![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)](/) | [![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)](/) | [![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png)](/) | [![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png)](/) | [![Yandex](https://raw.github.com/alrra/browser-logos/master/src/yandex/yandex_48x48.png)](/) | [![Brave](https://raw.github.com/alrra/browser-logos/master/src/brave/brave_48x48.png)](/) | [![Vivaldi](https://raw.github.com/alrra/browser-logos/master/src/vivaldi/vivaldi_48x48.png)](/) |
-| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| 49 & later ✔                                                                                  | 52 & later ✔                                                                                     | 36 & later ✔                                                                               | 79 & later ✔                                                                            | Latest ✔                                                                                      | Latest ✔                                                                                   | Latest ✔                                                                                         |
+| [![Chrome](https://s2.loli.net/2025/03/31/rAg93eNCOj8P54y.png)](/) | [![Firefox](https://s2.loli.net/2025/03/31/yJiWdqaP6Y5ozsr.png)](/) | [![Opera](https://s2.loli.net/2025/03/31/qKPSGrilQvmgy9p.png)](/) | [![Edge](https://s2.loli.net/2025/03/31/KTsyfa3QDZ6o9dn.png)](/) | [![Yandex](https://s2.loli.net/2025/03/31/arqyo6B2w7VeAld.png)](/) | [![Brave](https://s2.loli.net/2025/03/31/YlTZOBo5AsWqSia.png)](/) | [![vivaldi](https://s2.loli.net/2025/03/31/a9OmnPAipo6F7Yz.png)](/) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 79 & later ✔                                                 | 52 & later ✔                                                 | 36 & later ✔                                                 | 79 & later ✔                                                 | Latest ✔                                                     | Latest ✔                                                     | Latest ✔                                                     |
 
 ### 🚀 Get started fast
 
